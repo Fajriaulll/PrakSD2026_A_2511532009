@@ -73,7 +73,7 @@ public class MahasiswaDriver_2511532009 {
 	
 	do {
 		tampilkanMenu_2511532009();
-		System.out.println("Pilih menu: ");
+		System.out.print("Pilih menu: ");
 		choice = scanner.nextInt();
 		scanner.nextLine(); // consume newline
 		
