@@ -22,17 +22,17 @@ public static void shellSort_2511532009 (int[] A_2009) {
 	public static void main (String[] args) {
 		int[] data_2009 = {3, 10, 4, 6, 8, 9, 7, 2, 1, 5};
 		
-		System.out.println("Sebelum : ");
+		System.out.print("Sebelum : ");
 		printArray(data_2009);
 		
 		shellSort_2511532009 (data_2009);
 		
-		System.out.println("Sesudah (Shell SOrt): ");
+		System.out.print("Sesudah (Shell SOrt): ");
 		printArray(data_2009);
 	}
 	
 	public static void printArray (int [] arr) {
-		for (int i : arr) System.out.println(i + " ");
+		for (int i : arr) System.out.print(i + " ");
 		System.out.println();
 	}
 }

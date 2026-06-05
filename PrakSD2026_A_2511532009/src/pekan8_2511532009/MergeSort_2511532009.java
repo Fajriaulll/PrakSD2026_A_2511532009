@@ -1,6 +1,6 @@
 package pekan8_2511532009;
 public class MergeSort_2511532009 {
-    void merge_2009 (int [] arr_2009, int l_2009, int m_2009, int r_2009) {
+   static void merge_2009 (int [] arr_2009, int l_2009, int m_2009, int r_2009) {
         // find sizes of two subarrays to be merged
         int n1_2009 = m_2009 - l_2009 + 1;
         int n2_2009 = r_2009 - m_2009;

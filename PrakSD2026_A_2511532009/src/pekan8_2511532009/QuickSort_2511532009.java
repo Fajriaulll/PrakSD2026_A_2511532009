@@ -1,7 +1,7 @@
 package pekan8_2511532009;
 
 public class QuickSort_2511532009 {
-	static void swap_2511532009 (int[] arr_2009, int i_2009, int j_2009) 
+	public static void swap_2511532009 (int[] arr_2009, int i_2009, int j_2009) 
 	{
 		int temp_2009 = arr_2009[i_2009];
 		arr_2009[i_2009] = arr_2009[j_2009];
